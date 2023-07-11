@@ -1,0 +1,12 @@
+
+GET  http://localhost:4001/api/tasks
+
+
+###
+POST http://localhost:4001/api/tasks
+content-Type: application/json
+
+{
+    "title": "How to do a website in wordpress",
+    "description": "Freelance work"
+}
